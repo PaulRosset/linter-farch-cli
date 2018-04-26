@@ -1,12 +1,12 @@
 {
   "name": "linter-farch-cli",
-  "version": "1.1.0",
-  "description": "Linter farch CLI",
+  "version": "1.1.1",
+  "description": "Linter for filename, to keep a filename architecture clean.",
   "bin": {
     "farch": "cli.js"
   },
   "scripts": {
-    "test": "ava"
+    "test": "jest"
   },
   "repository": "git@github.com:PaulRosset/linter-farch-cli.git",
   "author": "Paul Rosset <paulrosset96@gmail.com>",
@@ -18,6 +18,6 @@
     "read-package-json": "^2.0.13"
   },
   "devDependencies": {
-    "ava": "^0.25.0"
+    "jest": "^22.4.3"
   }
 }
