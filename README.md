@@ -4,10 +4,7 @@
 
 [![npm version](https://badge.fury.io/js/linter-farch-cli.svg)](https://badge.fury.io/js/linter-farch-cli)
 
-<div style="width: 100%;">
-  <img src="media/demo1.png" alt="demo-farch-1" style="width: 49%"/>
-  <img src="media/demo2.png" alt="demo-farch-2" style="width: 50%"/>
-</div>
+<img src="media/demo1.png" width="300"/> <img src="media/demo2.png" width="300"/>
 
 ## Motivation
 
