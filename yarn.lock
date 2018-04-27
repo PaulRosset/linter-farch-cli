@@ -1916,9 +1916,9 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-linter-farch@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/linter-farch/-/linter-farch-1.0.5.tgz#809201cf1d2af159c3346d056e8773e5aba611b7"
+linter-farch@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/linter-farch/-/linter-farch-1.1.1.tgz#cc91ab1af269167587262c54a61dce7f254f5ffc"
 
 load-json-file@^1.0.0:
   version "1.1.0"

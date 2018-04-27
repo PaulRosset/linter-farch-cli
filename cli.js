@@ -18,8 +18,8 @@ const cli = meow(
 );
 
 const main = () => {
-  try {
-    readPkg(path.resolve("package.json"), console.error, false, (err, data) => {
+  readPkg(path.resolve("package.json"), console.error, false, (err, data) => {
+    try {
       const report = getInput(data);
       console.log(`\n    Report ${chalk.bold("linter-farch:\n")}`);
 
@@ -41,12 +41,13 @@ const main = () => {
           }
         });
       });
-    });
-  } catch (e) {
-    if (e) {
-      console.log(`      ${chalk.bold.red(e.message)}`);
+    } catch (e) {
+      if (e) {
+        console.log(`      ${chalk.bold.red(e.message)}`);
+        return;
+      }
     }
-  }
+  });
 };
 
 main();

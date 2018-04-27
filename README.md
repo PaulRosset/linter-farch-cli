@@ -5,8 +5,8 @@
 [![npm version](https://badge.fury.io/js/linter-farch-cli.svg)](https://badge.fury.io/js/linter-farch-cli)
 
 <div style="width: 100%;">
-  <img src="media/demo1" alt="demo-farch-1" style="width: 49%"/>
-  <img src="media/demo2" alt="demo-farch-2" style="width: 50%"/>
+  <img src="media/demo1.png" alt="demo-farch-1" style="width: 49%"/>
+  <img src="media/demo2.png" alt="demo-farch-2" style="width: 50%"/>
 </div>
 
 ## Motivation
@@ -70,8 +70,8 @@ Insert it in your `package.json` file:
 
 ## Todo
 
-* [] Extend the config support, let the possibility to use another file than `package.json`, for the non-js project.
-* [] A lot of things can be added on top of it...
+* Extend the config support, let the possibility to use another file than `package.json`, for the non-js project.
+* A lot of things can be added on top of it...
 
 ## API for this module
 
