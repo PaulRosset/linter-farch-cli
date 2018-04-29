@@ -1,6 +1,6 @@
 {
   "name": "linter-farch-cli",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Linter for filename, to keep a filename architecture clean.",
   "bin": {
     "farch": "cli.js"
@@ -14,6 +14,7 @@
   "dependencies": {
     "chalk": "^2.4.0",
     "linter-farch": "^1.1.1",
+    "load-json-file": "^4.0.0",
     "meow": "^5.0.0",
     "read-package-json": "^2.0.13"
   },

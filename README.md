@@ -31,6 +31,8 @@ The `package.json` file is used here to avoid creating another file with a purpo
 
 ### Configuration:
 
+For the configuration, two possibles way can be taken, the first is the `package.json` file like below (essentially for the JS project and if you don't want to create another config file):
+
 In the `package.json` file:
 
 ```json
@@ -41,6 +43,19 @@ In the `package.json` file:
   }
 }
 ```
+
+But, there is still the possibility to create a `farch.json` config file at the root of the project, essentially for the non-js project or if you don't want to put the configuration in your `package.json`.
+
+```json
+{
+  "farch": {
+    "src": "([a-z]*-[0-9]{4})[.]*[a-z]*",
+    "src/utilities": "[a-z]*"
+  }
+}
+```
+
+> `farch.json` file have the priority over the `package.json` file.
 
 Inside the `farch` property, insert the directory that you want to test:  
 Pass as `key`, the path from the root directory to the target directory, then in value pass `regex` to match.
@@ -66,11 +81,6 @@ Insert it in your `package.json` file:
   }
 }
 ```
-
-## Todo
-
-* Extend the config support, let the possibility to use another file than `package.json`, for the non-js project.
-* A lot of things can be added on top of it...
 
 ## API for this module
 
